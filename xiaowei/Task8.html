@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin: 0;padding: 0}
+        .clearfix{overflow:hidden;_zoom:1;}
+        .box{padding: 10px;}
+        .cb{display: inline-block;float: left;margin: 10px 0}
+        .boxer{border: 1px solid #999;background-color: #eee;height: 50px;margin: 0 10px}
+        @media screen and (min-width: 768px) {
+            .col-a-1{width: 8.33%}
+            .col-a-2{width: 16.66%}
+            .col-a-3{width: 25%}
+            .col-a-4{width: 33.33%}
+            .col-a-5{width: 41.33%}
+            .col-a-6{width: 50%}
+            .col-a-7{width: 58.33%}
+            .col-a-8{width: 66.66%}
+            .col-a-9{width: 75%}
+            .col-a-10{width: 83.33%}
+            .col-a-11{width: 91.66%}
+            .col-a-12{width: 100%}
+        }
+        @media screen and (max-width: 768px) {
+            .col-b-1{width: 8.33%}
+            .col-b-2{width: 16.66%}
+            .col-b-3{width: 25%}
+            .col-b-4{width: 33.33%}
+            .col-b-5{width: 41.33%}
+            .col-b-6{width: 50%}
+            .col-b-7{width: 58.33%}
+            .col-b-8{width: 66.66%}
+            .col-b-9{width: 75%}
+            .col-b-10{width: 83.33%}
+            .col-b-11{width: 91.66%}
+            .col-b-12{width: 100%}
+        }
+
+    </style>
+</head>
+<body>
+<div class="box clearfix">
+    <div class="col-a-4 col-b-6 cb"><div class="boxer"></div></div>
+    <div class="col-a-4 col-b-6 cb"><div class="boxer"></div></div>
+    <div class="col-a-4 col-b-12 cb"><div class="boxer"></div></div>
+    <div class="col-a-3 col-b-3 cb"><div class="boxer"></div></div>
+    <div class="col-a-6 col-b-6 cb"><div class="boxer"></div></div>
+    <div class="col-a-3 col-b-3 cb"><div class="boxer"></div></div>
+    <div class="col-a-1 col-b-2 cb"><div class="boxer"></div></div>
+    <div class="col-a-1 col-b-2 cb"><div class="boxer"></div></div>
+    <div class="col-a-2 col-b-8 cb"><div class="boxer"></div></div>
+    <div class="col-a-2 col-b-3 cb"><div class="boxer"></div></div>
+    <div class="col-a-6 col-b-3 cb"><div class="boxer"></div></div>
+</div>
+</body>
+</html>
